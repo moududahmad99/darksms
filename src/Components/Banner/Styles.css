@@ -1,0 +1,22 @@
+/* Banner Area Start */
+
+.banner-left img {
+  position: absolute;
+  left: -150px;
+  z-index: -1;
+}
+
+.banner-right {
+
+}
+
+.banner-right h3 {
+	font-family: 'THICCCBOI';
+	padding-right: 240px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: 800;
+	font-size: 2.3rem;
+}
+
+/* Banner Area End */
