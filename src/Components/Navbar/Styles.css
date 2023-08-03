@@ -11,6 +11,13 @@
     format("truetype");
 }
 
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("../../../public/thicccboi/fonts/TTF/THICCCBOI-Bold.ttf") format("truetype");
+  font-weight: Bold; 
+  font-style: normal;
+}
+
 .navbar img {
   height: 60px;
   width: 200px;
@@ -47,6 +54,7 @@
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  font-weight: bold;
 }
 
 .navbar-toggler {
