@@ -1,0 +1,153 @@
+/* Navar Area Start */
+
+#navbar-wrapper {
+  background: #000;
+  padding: 14px 0;
+}
+
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("../../public/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf")
+    format("truetype");
+}
+
+.navbar img {
+  height: 60px;
+  width: 200px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 10px 14px;
+  font-family: "THICCCBOI";
+  color: #ffffff !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  background: #6d6b6b94;
+  color: #ffffff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.customer-button {
+  background: #ffffff !important;
+  color: #000 !important;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.navbar-toggler {
+  color: #ffffff !important;
+}
+
+/* Sidebar styles */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: -80%;
+    height: 100vh;
+    width: 300px;
+    overflow-y: auto;
+    background: #121212;
+    padding-top: 60px;
+    transition: left 0.3s;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+  }
+
+  .nav-item {
+    display: block;
+  }
+
+  .nav-link {
+    color: #ffffff;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .close-button {
+    position: fixed;
+    top: 20px;
+    left: 248px;
+    text-align: center;
+    line-height: 35px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background: #2c2c2c;
+    z-index: 1000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .close-button span {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    background: none;
+  }
+
+  .customer-button {
+    padding: 10px;
+    width: 200px;
+  }
+
+  /* New styles for sidebar bottom */
+
+  .sidebar-bottom {
+    padding: 20px;
+    color: #fff;
+    margin-top: 40px;
+    font-family: "THICCCBOI";
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+  }
+
+  .sidebar-bottom img {
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: -450px;
+  }
+
+  .sidebar-bottom .social-links a {
+    margin: 0 8px;
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  .social-links p {
+    line-height: 22px;
+  }
+}
+
+/* Navar Area End */
