@@ -1,5 +1,5 @@
 import React from 'react'
-import MyNavbar from '../Components/Navbar'
+import MyNavbar from '../Components/Navbar/Navbar'
 
 const Home = () => {
     return (
@@ -9,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
