@@ -1,22 +1,72 @@
 /* Banner Area Start */
-
-.banner-left img {
-  position: absolute;
-  left: -150px;
-  z-index: -1;
+.banner-wrapper {
+	background: #121212;
 }
 
 .banner-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+}
 
+
+
+.banner-left img {
+	position: absolute;
+	left: -150px;
 }
 
 .banner-right h3 {
-	font-family: 'THICCCBOI';
-	padding-right: 240px;
+	padding-right: 170px;
 	line-height: 50px;
-	color: #FFFFFF;
-	font-weight: 800;
+	color: #eeeded;
+	font-weight: 500;
 	font-size: 2.3rem;
+	font-family: 'THICCCBOI';
+}
+
+.banner-right p {
+	font-size: 1.1rem;
+	line-height: 26px;
+	padding-right: 190px;
+	color: #b3b3b3;
+	font-family: 'THICCCBOI';
+
+}
+
+.banner-right--inner {
+	margin-top: 70px;
+	font-family: 'THICCCBOI';
+}
+
+.banner-right--inner .btn1 {
+	background: #3700B3;
+	padding: 14px 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	color: #D1D1D1;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	margin-right: 10px;
+}
+
+.banner-right--inner .btn2 {
+	background: #ffffff;
+	padding: 14px 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	color: #535353;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
 }
 
 /* Banner Area End */

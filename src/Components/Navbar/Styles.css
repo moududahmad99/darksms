@@ -1,10 +1,15 @@
 /* Navar Area Start */
 
 #navbar-wrapper {
+  background: #121212;
   padding: 14px 0;
 }
 
-
+@font-face {
+  font-family: "THICCCBOI";
+  src: url("../../../public/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf")
+    format("truetype");
+}
 
 .navbar img {
   height: 60px;
@@ -103,6 +108,7 @@
   .close-button span {
     font-size: 30px;
     color: #ffffff;
+    background: none;
     font-weight: bold;
   }
 
@@ -112,7 +118,7 @@
 
   .customer-button {
     padding: 10px;
-    width: 200px;
+    width: 155px;
   }
 
   /* New styles for sidebar bottom */

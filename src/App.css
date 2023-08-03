@@ -4,27 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #121212;
 }
 
 @font-face {
   font-family: "THICCCBOI";
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Black.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Bold.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-ExtraBold.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Light.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Medium.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-SemiBold.ttf")
-    format("truetype");
-  src: url("../public/thicccboi/fonts/TTF/THICCCBOI-Thin.ttf")
-    format("truetype");
   src: url("../public/thicccboi/fonts/TTF/THICCCBOI-ThicccAF.ttf")
     format("truetype");
 }
